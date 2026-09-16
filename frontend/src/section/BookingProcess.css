@@ -1,0 +1,73 @@
+.booking-container {
+    margin-top: 12rem;
+}
+.main-booking {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 96px;
+}
+.left-content {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-left: 50px;
+}
+.left-heading p {
+    color: orange;
+    margin-bottom: 10px;
+
+}
+.left-heading h1 {
+    width: 55%;
+    line-height: 1;
+}
+.left-review {
+    margin-top: 40px;
+}
+
+.left-review p {
+    /* border: 2px solid red; */
+    width: 55%;
+    line-height: 1.2;
+    font-size: large;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 15px;
+}
+.right-content {
+    /* border: 3px solid peru; */
+}
+
+#number {
+    color: orange;
+}
+
+.step-one,
+.two,
+.three {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;               
+}
+.head-one,
+.head-two,
+.head-three {
+    margin-bottom: 20px;
+}
+.head-one h3,
+.head-two h3,
+.head-three h3 {
+    margin-bottom: 8px;
+}
+
+.head-one p,
+.head-two p,
+.head-three p {
+    width: 80%;
+}

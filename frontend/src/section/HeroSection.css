@@ -1,0 +1,70 @@
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("../assets/heroBanner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 1rem;
+    padding-top: 5rem;
+    row-gap: 20px;
+}
+
+.para {
+    color: orange;
+    font-weight: 600;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: 500;
+    width: 50%;
+    text-align: center;
+    line-height: 1.1;
+    margin-top: 20px;
+    font-family: sans-serif;
+    text-wrap: balance;
+}
+.para-two {
+    width: 30%;
+    text-align: center;
+    line-height: 1.1;
+}
+
+#book-btn {
+    background-color: #f97316;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    transition-property: color, background-color, border-color, text-decoration-color,fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0,0.2, 1);
+    transition-duration: 150ms;
+}
+.review {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.users {
+    display: flex;
+
+}
+.users img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    margin-left: -20px;
+}
+.users img:first-child {
+    margin-left: 0;
+}
+@media (max-width: 600px) {
+    .hero-section {
+        display: none;
+    }
+}

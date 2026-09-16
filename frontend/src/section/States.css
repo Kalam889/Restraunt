@@ -1,0 +1,23 @@
+.states-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    gap: 30px;
+}
+.state-one {
+    /* border: 2px solid yellow; */
+    margin-left: 100px;
+
+}
+
+
+.state-two {
+    /* border: 2px solid black; */
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.state-three {
+    /* border: 2px solid red; */
+    margin-right: 100px;
+}
+

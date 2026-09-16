@@ -1,0 +1,38 @@
+.dishes-container {
+    margin-top: 11rem;
+}
+.dishes-para {
+    /* border: 5px solid green; */
+    margin-bottom: 4rem;
+    text-align: center;
+}
+.dishes-para p{
+    color: rgb(249 115 22);
+    font-weight: 500;
+    margin-bottom: 14px;
+
+}
+.dishes-para h1 {
+    font-size: 3rem;
+    line-height: 1;
+    margin-left: auto;
+    margin-right: auto;
+    text-wrap: balance;
+}
+
+.dishes-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12px;
+}
+.dish-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.dish-one img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}

@@ -4,7 +4,7 @@ import iconL from "../assets/iconL.png"
 import iconR from "../assets/iconR.png"
 function About() {
     return (
-        <section>
+        <section id="about">
             <div className="about-container">
                 <div className="image-container">
                     <img src={about} alt="Dish" />

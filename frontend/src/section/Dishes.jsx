@@ -9,7 +9,7 @@ import dish7 from "../assets/dish7.png"
 import dish8 from "../assets/dish8.png"
 function Dishes() {
     return (
-        <section className="dishes-container">
+        <section id="dishes" className="dishes-container">
             <div className="dishes-para">
                 <p>CHEF'S SIGNATURE SELECTION</p>
                 <h1>Discover our signature dishes</h1>
